@@ -2,6 +2,7 @@
   "name": "hyde",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://ttanachot.github.io/SCB-HYPE-2019",
   "dependencies": {
     "antd": "^3.19.6",
     "axios": "^0.19.0",
@@ -19,7 +20,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b build"
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -35,5 +36,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^2.1.1"
   }
 }
