@@ -1,0 +1,47 @@
+.loanSummaryPage {
+  margin: 0 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.steps-bar {
+  margin: 40px;
+}
+
+.loan-summary-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px auto;
+}
+
+.loan-summary-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid lightgrey;
+  margin-bottom: 10px;
+}
+
+.loanSummaryProcessing {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgba(0,0,0,0.3); /* Black w/ opacity */
+}
+
+.loanSummaryProcessing .spinning {
+  color: #4e2b82;
+}

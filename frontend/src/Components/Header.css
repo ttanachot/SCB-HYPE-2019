@@ -1,0 +1,28 @@
+.Header {
+  display: flex;
+  width: 100%;
+  height: 50px;
+  justify-content: space-between;
+}
+
+.scb-logo {
+  height: 75%;
+  margin: 5px 30px;
+}
+
+.login-button {
+  margin: auto 10px;
+  background-color: #364d79 !important;
+  border-color: #364d79 !important;
+}
+
+.login-button-span {
+  display: flex;
+  align-items: center;
+}
+
+.avatar {
+  height: 36px;
+  width: 36px;
+  border-radius: 36px;
+}

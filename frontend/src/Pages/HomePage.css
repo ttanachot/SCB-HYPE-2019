@@ -1,0 +1,64 @@
+.Jumbotron {
+  text-align: center;
+  height: 300px;
+  line-height: 160px;
+  background: #364d79;
+  overflow: hidden;
+}
+
+.Jumbotron-picker h1{
+  color: #fff;
+}
+
+.App {
+  margin: 2% 10%;
+  padding: 2%;
+  border-radius: 10px;
+  border: 1px solid lightgray !important;
+}
+
+.steps-bar {
+  margin: 40px;
+}
+
+.home-page-bottom-section {
+  display: flex;
+  justify-content: center;
+}
+
+.bottom-section-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+}
+
+.begin-button {
+  height: 40px;
+  width: 200px;
+  border-radius: 20px;
+  margin-bottom: 40px;
+  align-items: flex-end;
+  align-self: flex-end;
+  color: white;
+  background-color: #4e2B82;
+  box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.4);
+}
+
+.arrow-right {
+  font-size: 60px;
+}
+
+.section-icon {
+  font-size: 100px;
+}
+
+.section-box-top {
+  margin: 20px;
+}
+
+.section-box-bottom {
+  margin: 10px;
+  text-align: center;
+}

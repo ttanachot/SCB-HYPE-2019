@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  backend:
+    build: ./backend
+    command: bash  -c 'npm install && npm run dev'
+    image: backend-service
+    volumes:
+      - './backend:/usr/src/app'
+    ports:
+      - '6009:6009'

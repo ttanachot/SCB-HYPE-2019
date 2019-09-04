@@ -1,0 +1,59 @@
+{
+  "name": "backend-service",
+  "version": "0.0.1",
+  "description": "Example of node server for ES6 Resful API and webpack and docker",
+  "main": "dist",
+  "scripts": {
+    "dev": "npm run clean:dev && webpack --watch",
+    "clean:dev": "rm -rf build",
+    "clean": "rm -rf dist",
+    "build": "babel src -D -d dist",
+    "start": "NODE_ENV=production node dist",
+    "prestart": "npm run -s build",
+    "lint:fix": "eslint --fix src",
+    "lint": "eslint src",
+    "test": "jest --coverage --forceExit",
+    "version": "node -pe \"require('./package.json').version\""
+  },
+  "eslintConfig": {
+    "extends": "eslint:recommended",
+    "parserOptions": {
+      "ecmaVersion": 7,
+      "sourceType": "module"
+    },
+    "env": {
+      "node": true
+    },
+    "rules": {
+      "no-console": 0,
+      "no-unused-vars": 1
+    }
+  },
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "body-parser": "^1.13.3",
+    "compression": "^1.5.2",
+    "cors": "^2.8.5",
+    "dotenv": "^6.0.0",
+    "express": "^4.13.3",
+    "lodash": "^4.17.11"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.9.0",
+    "babel-core": "^6.9.0",
+    "babel-eslint": "^8.2.3",
+    "babel-jest": "^23.0.1",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.5.0",
+    "babel-runtime": "^6.26.0",
+    "eslint": "^3.1.1",
+    "nodemon-webpack-plugin": "^4.0.3",
+    "sinon": "^6.0.0",
+    "webpack": "^4.12.2",
+    "webpack-cli": "^3.0.8",
+    "webpack-node-externals": "^1.7.2"
+  }
+}

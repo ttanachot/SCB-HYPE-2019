@@ -1,0 +1,15 @@
+
+.CompareLoan {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;   
+}
+
+.CompareLoanContainer {
+  display: flex;
+  justify-content: space-between;
+  /* margin-top: 30px; */
+  padding: 0 15%;
+  width: 100%;
+}
