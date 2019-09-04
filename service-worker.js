@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/SCB-HYPE-2019/precache-manifest.ed28f7c8edad6c9df707738e4a19a29c.js"
+  "/SCB-HYPE-2019/precache-manifest.f5b3d8f5217d8c31213d01aa7a044825.js"
 );
 
 self.addEventListener('message', (event) => {
