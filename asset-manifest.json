@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/SCB-HYPE-2019/static/css/main.210d6a95.chunk.css",
+    "main.js": "/SCB-HYPE-2019/static/js/main.0ddc3e98.chunk.js",
+    "main.js.map": "/SCB-HYPE-2019/static/js/main.0ddc3e98.chunk.js.map",
+    "runtime~main.js": "/SCB-HYPE-2019/static/js/runtime~main.764025af.js",
+    "runtime~main.js.map": "/SCB-HYPE-2019/static/js/runtime~main.764025af.js.map",
+    "static/css/2.328f408e.chunk.css": "/SCB-HYPE-2019/static/css/2.328f408e.chunk.css",
+    "static/js/2.f584d4b3.chunk.js": "/SCB-HYPE-2019/static/js/2.f584d4b3.chunk.js",
+    "static/js/2.f584d4b3.chunk.js.map": "/SCB-HYPE-2019/static/js/2.f584d4b3.chunk.js.map",
+    "index.html": "/SCB-HYPE-2019/index.html",
+    "precache-manifest.ed28f7c8edad6c9df707738e4a19a29c.js": "/SCB-HYPE-2019/precache-manifest.ed28f7c8edad6c9df707738e4a19a29c.js",
+    "service-worker.js": "/SCB-HYPE-2019/service-worker.js",
+    "static/css/2.328f408e.chunk.css.map": "/SCB-HYPE-2019/static/css/2.328f408e.chunk.css.map",
+    "static/css/main.210d6a95.chunk.css.map": "/SCB-HYPE-2019/static/css/main.210d6a95.chunk.css.map",
+    "static/media/home-jumbo.png": "/SCB-HYPE-2019/static/media/home-jumbo.b9e5add1.png",
+    "static/media/mcmc-web-banner.jpg": "/SCB-HYPE-2019/static/media/mcmc-web-banner.702c4404.jpg",
+    "static/media/scb-logo.jpg": "/SCB-HYPE-2019/static/media/scb-logo.3084fd75.jpg",
+    "static/media/speedy-loan-banner-web.jpg": "/SCB-HYPE-2019/static/media/speedy-loan-banner-web.a0e84c50.jpg",
+    "static/media/your-loan.jpg": "/SCB-HYPE-2019/static/media/your-loan.bb9bc72f.jpg"
+  }
+}
