@@ -37,7 +37,7 @@
     "cors": "^2.8.5",
     "dotenv": "^6.0.0",
     "express": "^4.13.3",
-    "lodash": "^4.17.11"
+    "lodash": "^4.17.19"
   },
   "devDependencies": {
     "babel-cli": "^6.9.0",
